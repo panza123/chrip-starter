@@ -1,0 +1,1006 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(247, 237, 226);
+  color: rgb(60, 59, 59);
+  overflow-x: hidden;
+}
+main {
+  margin: 20px;
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  color: rgb(72, 72, 245);
+  font-weight: 400;
+}
+#navleft {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 100px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  padding: 10px;
+  color: rgb(60, 59, 59);
+  text-decoration: none;
+  cursor: pointer;
+}
+ul li a:hover {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(60, 59, 59);
+  color: white;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(36, 105, 252, 0.774);
+  color: white;
+  gap: 5px;
+  padding-top: 10px;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button img {
+  width: 50px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+label {
+  display: none;
+}
+input {
+  display: none;
+}
+#mobilemenu {
+  display: none;
+}
+#headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+}
+#head {
+  width: 50%;
+  height: 100%;
+}
+#head h1 {
+  font-size: 50px;
+  color: black;
+  font-weight: 900;
+}
+#headline p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: rgb(60, 59, 59);
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+}
+#button button:nth-child(2) {
+  background-color: rgb(247, 237, 226);
+  color: blue;
+  cursor: pointer;
+}
+#image {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+span {
+  color: blue;
+}
+#headimage {
+  width: 50%;
+  height: 50%;
+}
+#headimage img {
+  width: 50%;
+}
+#body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#bodytwo {
+  margin: 20px;
+}
+#two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#body h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 500px;
+  padding-top: 20px;
+}
+.bodywriteup {
+  width: 500px;
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+}
+.divide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.divide p {
+  color: black;
+  text-transform: capitalize;
+}
+.divide img {
+  width: 50px;
+}
+.bodywriteup p {
+  padding: 10px;
+}
+#section {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(129, 243, 243);
+}
+#tion {
+  padding: 20px;
+}
+#down {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 20px;
+}
+.mary {
+  width: 300px;
+  height: 220px;
+  background-color: white;
+  border-radius: 5px;
+}
+.marytwitter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.marytwitterp {
+  display: flex;
+  gap: 10px;
+}
+.maryp {
+  display: flex;
+  flex-direction: column;
+}
+.p {
+  padding: 10px;
+}
+.marylikes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+#jack {
+  width: 300px;
+  height: 270px;
+  background-color: white;
+  border-radius: 5px;
+}
+#priceplan {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#box {
+  width: 350px;
+  height: 300px;
+  background-color: rgb(247, 237, 226);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(237, 136, 27);
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#boxone {
+  display: flex;
+  flex-direction: column;
+}
+#boxone span {
+  color: black;
+  font-size: 20px;
+}
+hr {
+  margin-top: 20px;
+}
+.boxp {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+}
+#box button {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 50px;
+}
+footer {
+  width: 100%;
+  background-color: rgb(129, 243, 243);
+  margin-right: 100x;
+}
+#footerdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 50px;
+}
+#footdis {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 1200px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  #headimage {
+    width: 50%;
+    height: 100%;
+  }
+  #headimage img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .bodywriteup {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  .mary {
+    width: 250px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 900px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  #headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+  }
+  #head {
+    width: 50%;
+    height: 100%;
+  }
+  #head h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+  }
+  #headline p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(60, 59, 59);
+  }
+  #button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  #button button:nth-child(2) {
+    background-color: rgb(247, 237, 226);
+    color: blue;
+    cursor: pointer;
+  }
+  #headimage {
+    width: 70%;
+    height: 100%;
+  }
+  #headimage img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .bodywriteup {
+    width: 360px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  .mary {
+    width: 220px;
+    height: 230px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #jack {
+    width: 250px;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  #headimage {
+    width: 50%;
+    height: 100%;
+  }
+  #headimage img {
+    width: 60%;
+    height: 100%;
+  }
+
+  .bodywriteup {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  .mary {
+    width: 250px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  #nav {
+    width: 100%;
+  }
+  #navleft {
+    gap: 5px;
+  }
+  #headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+  }
+  #head {
+    width: 50%;
+    height: 100%;
+  }
+  #head h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+  }
+  #headline p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(60, 59, 59);
+  }
+  #button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  #button button:nth-child(2) {
+    background-color: rgb(247, 237, 226);
+    color: blue;
+    cursor: pointer;
+  }
+  #headimage {
+    width: 70%;
+    height: 100%;
+  }
+  #headimage img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .bodywriteup {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  .mary {
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #jack {
+    width: 220px;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    width: 100vw;
+    height: auto;
+  }
+  #nav {
+    width: 100%;
+  }
+  #navleft {
+    gap: 5px;
+  }
+  #headline {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100vw;
+    height: 100%;
+    margin: 20px;
+    padding-top: 50px;
+  }
+  #head {
+    width: 100%;
+    height: 100%;
+  }
+  #head h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+  }
+  #headline p {
+    padding-top: 25px;
+    width: 500px;
+    font-size: 15px;
+    color: rgb(60, 59, 59);
+  }
+  #button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  #button button:nth-child(2) {
+    background-color: rgb(247, 237, 226);
+    color: blue;
+    cursor: pointer;
+  }
+  #headimage {
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+  }
+  #headimage img {
+    width: 70%;
+    height: 100%;
+  }
+  #bodytwo {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  #body {
+    height: 100%;
+  }
+  .bodywriteup {
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  #section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #down {
+    display: flex;
+    flex-direction: column;
+  }
+  .mary {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #jack {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #priceplan {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+  #nav {
+    width: 100%;
+  }
+  nav ul li a{
+     padding: 10px;
+     font-size: 15px;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(36, 105, 252, 0.774);
+    color: white;
+    gap: 3px;
+    padding-top: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  #navleft {
+    gap: 5px;
+  }
+  #headline {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100vw;
+    height: 100%;
+    margin: 20px;
+    padding-top: 50px;
+  }
+  #head {
+    width: 100%;
+    height: 100%;
+  }
+  #head h1 {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+  }
+  #headline p {
+    padding-top: 15px;
+    width: 500px;
+    font-size: 15px;
+    color: rgb(60, 59, 59);
+  }
+  #image{
+    width: 30px;
+  }
+  #image img{
+    width: 30px;
+  }
+  #button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  #button button:nth-child(2) {
+    background-color: rgb(247, 237, 226);
+    color: blue;
+    cursor: pointer;
+  }
+  #headimage {
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+  }
+  #headimage img {
+    width: 70%;
+    height: 100%;
+  }
+  #bodytwo {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  #body {
+    height: 100%;
+  }
+  .bodywriteup {
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  #section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #down {
+    display: flex;
+    flex-direction: column;
+  }
+  .mary {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #jack {
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #priceplan {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  #footerdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 50px;
+  }
+  #footdis {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+  
+  #navleft {
+    display: none;
+  }
+  #headline {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100vw;
+    height: 100%;
+    margin: 20px;
+    padding-top: 30px;
+  }
+  label{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  input:checked + #mobilemenu{
+    display: block;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+ 
+  #head {
+    width: 100%;
+    height: 100%;
+  }
+  #head h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+  }
+  #headline p {
+    padding-top: 15px;
+    width: 400px;
+    font-size: 15px;
+    color: rgb(60, 59, 59);
+  }
+  #button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  #button button:nth-child(2) {
+    background-color: rgb(247, 237, 226);
+    color: blue;
+    cursor: pointer;
+  }
+  #headimage {
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+  }
+  #headimage img {
+    width: 70%;
+    height: 100%;
+  }
+  #bodytwo {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  #body {
+    height: 100%;
+  }
+  .bodywriteup {
+    width: 350px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  #section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #down {
+    display: flex;
+    flex-direction: column;
+  }
+  .mary {
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #jack {
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #priceplan {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  #footerdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 50px;
+  }
+  #footdis {
+    display: flex;
+    gap: 10px;
+}
+}
+
+#box {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(247, 237, 226);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(237, 136, 27);
+  margin-top: 40px;
+  padding: 20px;
+}
+}
+@media (max-width: 400px) {
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+  
+  #navleft {
+    display: none;
+  }
+  #headline {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100vw;
+    height: 100%;
+    margin: 20px;
+    padding-top: 20px;
+  }
+  label{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  input:checked + #mobilemenu{
+    display: block;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+ 
+  #head {
+    width: 100%;
+    height: 100%;
+  }
+  #head h1 {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+  }
+  #headline p {
+    padding-top: 15px;
+    width: 350px;
+    font-size: 15px;
+    color: rgb(60, 59, 59);
+  }
+  #button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  #button button:nth-child(2) {
+    background-color: rgb(247, 237, 226);
+    color: blue;
+    cursor: pointer;
+  }
+  #headimage {
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+  }
+  #headimage img {
+    width: 70%;
+    height: 100%;
+  }
+  #bodytwo {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  #body {
+    height: 100%;
+  }
+  #image{
+    width: 30px;
+  }
+  #image img{
+    width: 30px;
+  }
+  #bodytwo h1{
+    font-size: 22px;
+  }
+  .bodywriteup {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+  }
+  #section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #down {
+    display: flex;
+    flex-direction: column;
+  }
+  .mary {
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #jack {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #priceplan {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  #footerdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 50px;
+  }
+  #footdis {
+    display: flex;
+    gap: 10px;
+  }
+}
