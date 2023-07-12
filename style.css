@@ -926,7 +926,7 @@ footer {
     color: blue;
     cursor: pointer;
   }
-  #button img{
+  #button button img{
     width: 30px;
   }
   #headimage {
@@ -957,7 +957,7 @@ footer {
   }
   .bodywriteup {
     width: 300px;
-    height: 200px;
+    height: 250px;
     border-style: solid;
     border-width: 1px;
     margin-top: 20px;
